@@ -96,10 +96,13 @@ body {
     transition: transform 0.4s ease;
     cursor: pointer;
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-style:double;
+    border-width: 4px;
 }
 
 .img1 img:hover {
-    transform: scale(1.05);
+    transform: scale(1.20);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
 }
 
 .projects {
