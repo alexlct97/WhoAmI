@@ -288,3 +288,72 @@ body {
     background-color: #d81e1e;
     color: #040c61;
 }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .header {
+        height: auto;
+        padding: 15px 20px;
+    }
+
+    .container1 {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .nav a {
+        margin: 0 10px;
+    }
+
+    .container2 {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .img1 {
+        justify-content: center;
+    }
+
+    .img1 img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .skills-list {
+        gap: 20px;
+    }
+
+    .skill-item {
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+        margin: 0 5px;
+    }
+
+    .about h2, .skills h2, .projects h2 {
+        font-size: 1.8rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+}
